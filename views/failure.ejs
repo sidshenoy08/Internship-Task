@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+
+<body>
+  <h1 style="text-align: center;">Sorry we were not able to register you!</h1>
+  <hr>
+  <p>The following errors occurred:</p>
+  <ul>
+      <% errors.forEach(function (err){ %>
+        <li> <%= err %> </li>
+      <% }); %>
+  </ul>
+</body>
+</html>

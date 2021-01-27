@@ -1,0 +1,40 @@
+<%- include("partials/header") %>
+
+  <body>
+    <h1 style="text-align: center;">Registration Form</h1>
+		<hr>
+		<form name="form" autocomplete="off" method="post">
+			<table align=center style="text-align:left;">
+				<tr>
+				<td><label for="name">Name</label></td>
+				<td><input class="data" type="text" id="name" name="name"></td>
+				</tr>
+				<tr>
+				<td><label for="email">Email</label></td>
+				<td><input class="data" type="email" id="email" name="email"></td>
+				</tr>
+        <tr>
+        <td><label for="phone">Phone Number</label></td>
+        <td><input class="data" type="text" id="phone" name="phone"></td>
+        </tr>
+				<tr>
+				<td><label for="degree">Degree</label></td>
+				<td><input class="data" type="text" id="degree" name="degree"></td>
+				</tr>
+				<tr>
+				<td><label for="skills">Skills</label></td>
+				<td><input class="data" type="text" id="skills" name="skills"></td>
+				</tr>
+				<tr>
+				<td><label for="exp">Experience</label></td>
+				<td>
+          <textarea class="data" name="exp" rows="8" cols="30"></textarea>
+        </td>
+				</tr>
+			</table>
+			<center>
+        <input style="margin-top: 30px;" class="btn btn-primary" name="submit" type="submit" value="Submit">
+			</center>
+		</form>
+    </body>
+  </html>
